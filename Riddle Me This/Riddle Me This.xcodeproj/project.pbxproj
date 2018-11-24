@@ -16,6 +16,7 @@
 		E1523E8E21A8A76300F1AE7C /* LevelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1523E8D21A8A76300F1AE7C /* LevelOne.swift */; };
 		E1523E9021A8C77F00F1AE7C /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1523E8F21A8C77F00F1AE7C /* GameOver.swift */; };
 		E1523E9221A8D09A00F1AE7C /* CorrectLvl1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1523E9121A8D09A00F1AE7C /* CorrectLvl1.swift */; };
+		E1EEE08F21A906C400970181 /* LevelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEE08E21A906C400970181 /* LevelTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E1523E8D21A8A76300F1AE7C /* LevelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOne.swift; sourceTree = "<group>"; };
 		E1523E8F21A8C77F00F1AE7C /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 		E1523E9121A8D09A00F1AE7C /* CorrectLvl1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectLvl1.swift; sourceTree = "<group>"; };
+		E1EEE08E21A906C400970181 /* LevelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				E1523E9121A8D09A00F1AE7C /* CorrectLvl1.swift */,
 				E1523E8F21A8C77F00F1AE7C /* GameOver.swift */,
 				E1523E8B21A89A0C00F1AE7C /* HowToPlay.swift */,
+				E1EEE08E21A906C400970181 /* LevelTwo.swift */,
 				E1523E8021A8873700F1AE7C /* Assets.xcassets */,
 				E1523E8221A8873700F1AE7C /* LaunchScreen.storyboard */,
 				E1523E8521A8873700F1AE7C /* Info.plist */,
@@ -151,6 +154,7 @@
 				E1523E8C21A89A0C00F1AE7C /* HowToPlay.swift in Sources */,
 				E1523E7A21A8873600F1AE7C /* AppDelegate.swift in Sources */,
 				E1523E9021A8C77F00F1AE7C /* GameOver.swift in Sources */,
+				E1EEE08F21A906C400970181 /* LevelTwo.swift in Sources */,
 				E1523E8E21A8A76300F1AE7C /* LevelOne.swift in Sources */,
 				E1523E9221A8D09A00F1AE7C /* CorrectLvl1.swift in Sources */,
 			);

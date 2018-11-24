@@ -228,17 +228,41 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gN-FD-2cs" userLabel="GotItButton">
+                                <rect key="frame" x="117" y="608" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="Check"/>
+                                <connections>
+                                    <action selector="toLvl2Pressed:" destination="xRx-5A-hCb" eventType="touchUpInside" id="NPV-vM-sg3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="sKQ-XQ-frE"/>
                     </view>
                     <connections>
                         <outlet property="scoreTextField" destination="786-1P-C3w" id="bDm-01-ja2"/>
+                        <segue destination="FT6-TR-bKb" kind="show" identifier="toLvl2Segue" id="lqR-Kd-JX3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTR-9m-Ipo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2309.5999999999999" y="22.906403940886701"/>
+            <point key="canvasLocation" x="2284" y="23"/>
+        </scene>
+        <!--Level Two-->
+        <scene sceneID="2He-ms-mEx">
+            <objects>
+                <viewController id="FT6-TR-bKb" customClass="LevelTwo" customModule="Riddle_Me_This" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qCL-cI-eD5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hAJ-Gh-ZSj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7AU-fm-JcW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3038" y="23"/>
         </scene>
         <!--Game Over-->
         <scene sceneID="EBA-Py-Ecp">
