@@ -508,6 +508,9 @@
                                 <rect key="frame" x="117" y="608" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Check"/>
+                                <connections>
+                                    <action selector="gotItPressed:" destination="soA-Ex-Sva" eventType="touchUpInside" id="qMH-Q2-GVw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -515,11 +518,27 @@
                     </view>
                     <connections>
                         <outlet property="scoreLabel" destination="ZAf-JJ-yGl" id="uU5-PQ-Ret"/>
+                        <segue destination="Uft-Re-T98" kind="show" identifier="endGameSegue" id="BHp-Gx-42y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9kV-Ua-LwP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5333.6000000000004" y="22.906403940886701"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Fe1-ov-CcO">
+            <objects>
+                <viewController id="Uft-Re-T98" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J2j-om-2qu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Wso-sr-8vM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nrK-cb-gIi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6108" y="23"/>
         </scene>
         <!--Game Over-->
         <scene sceneID="EBA-Py-Ecp">

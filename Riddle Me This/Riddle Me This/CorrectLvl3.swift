@@ -14,6 +14,11 @@ class CorrectLvl3: UIViewController {
     
     @IBOutlet weak var scoreLabel: UILabel!
     
+    
+    @IBAction func gotItPressed(_ sender: Any) {
+        performSegue(withIdentifier: "endGameSegue", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
