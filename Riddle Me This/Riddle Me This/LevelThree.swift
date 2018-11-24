@@ -34,6 +34,7 @@ class LevelThree: UIViewController {
     
     @IBAction func giftPressed(_ sender: Any) {
         correctButton = true
+        playerScore += 1
         performSegue(withIdentifier: "correctLvl3Segue", sender: self)
     }
     
@@ -45,7 +46,8 @@ class LevelThree: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (correctButton) {
-            
+            var correctLvl3 = segue.destination as! CorrectLvl3
+            correctLvl3.playerScore = playerScore
         } else {
             var gameOver = segue.destination as! GameOver
             gameOver.finalScore = playerScore

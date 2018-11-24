@@ -467,20 +467,36 @@
             </objects>
             <point key="canvasLocation" x="4549.6000000000004" y="22.906403940886701"/>
         </scene>
-        <!--View Controller-->
+        <!--Correct Lvl3-->
         <scene sceneID="t4I-yW-pLk">
             <objects>
-                <viewController id="soA-Ex-Sva" sceneMemberID="viewController">
+                <viewController id="soA-Ex-Sva" customClass="CorrectLvl3" customModule="Riddle_Me_This" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B2d-29-p4a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LemonLimeGradient" translatesAutoresizingMaskIntoConstraints="NO" id="IwN-nr-t0K">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAf-JJ-yGl">
+                                <rect key="frame" x="48" y="503" width="276" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lx3-mZ-7BU"/>
                     </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="ZAf-JJ-yGl" id="uU5-PQ-Ret"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9kV-Ua-LwP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5334" y="23"/>
+            <point key="canvasLocation" x="5333.6000000000004" y="22.906403940886701"/>
         </scene>
         <!--Game Over-->
         <scene sceneID="EBA-Py-Ecp">

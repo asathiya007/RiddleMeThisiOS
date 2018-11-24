@@ -19,6 +19,7 @@
 		E1EEE08F21A906C400970181 /* LevelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEE08E21A906C400970181 /* LevelTwo.swift */; };
 		E1EEE09121A91B5D00970181 /* CorrectLvl2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEE09021A91B5D00970181 /* CorrectLvl2.swift */; };
 		E1EEE09321A92ABC00970181 /* LevelThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEE09221A92ABC00970181 /* LevelThree.swift */; };
+		E1EEE09521A9370000970181 /* CorrectLvl3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEE09421A9370000970181 /* CorrectLvl3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E1EEE08E21A906C400970181 /* LevelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwo.swift; sourceTree = "<group>"; };
 		E1EEE09021A91B5D00970181 /* CorrectLvl2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectLvl2.swift; sourceTree = "<group>"; };
 		E1EEE09221A92ABC00970181 /* LevelThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelThree.swift; sourceTree = "<group>"; };
+		E1EEE09421A9370000970181 /* CorrectLvl3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectLvl3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				E1523E7921A8873600F1AE7C /* AppDelegate.swift */,
 				E1523E7B21A8873600F1AE7C /* ViewController.swift */,
 				E1523E7D21A8873600F1AE7C /* Main.storyboard */,
+				E1EEE09421A9370000970181 /* CorrectLvl3.swift */,
 				E1EEE09021A91B5D00970181 /* CorrectLvl2.swift */,
 				E1523E8D21A8A76300F1AE7C /* LevelOne.swift */,
 				E1523E9121A8D09A00F1AE7C /* CorrectLvl1.swift */,
@@ -163,6 +166,7 @@
 				E1523E9021A8C77F00F1AE7C /* GameOver.swift in Sources */,
 				E1EEE08F21A906C400970181 /* LevelTwo.swift in Sources */,
 				E1523E8E21A8A76300F1AE7C /* LevelOne.swift in Sources */,
+				E1EEE09521A9370000970181 /* CorrectLvl3.swift in Sources */,
 				E1EEE09121A91B5D00970181 /* CorrectLvl2.swift in Sources */,
 				E1523E9221A8D09A00F1AE7C /* CorrectLvl1.swift in Sources */,
 			);
