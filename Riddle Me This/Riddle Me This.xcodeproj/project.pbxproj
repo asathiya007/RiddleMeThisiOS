@@ -16,6 +16,7 @@
 		E1523E8E21A8A76300F1AE7C /* LevelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1523E8D21A8A76300F1AE7C /* LevelOne.swift */; };
 		E1523E9021A8C77F00F1AE7C /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1523E8F21A8C77F00F1AE7C /* GameOver.swift */; };
 		E1523E9221A8D09A00F1AE7C /* CorrectLvl1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1523E9121A8D09A00F1AE7C /* CorrectLvl1.swift */; };
+		E16DF15221A9FD28002BA188 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16DF15121A9FD28002BA188 /* SplashScreen.swift */; };
 		E1EEE08F21A906C400970181 /* LevelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEE08E21A906C400970181 /* LevelTwo.swift */; };
 		E1EEE09121A91B5D00970181 /* CorrectLvl2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEE09021A91B5D00970181 /* CorrectLvl2.swift */; };
 		E1EEE09321A92ABC00970181 /* LevelThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEE09221A92ABC00970181 /* LevelThree.swift */; };
@@ -35,6 +36,7 @@
 		E1523E8D21A8A76300F1AE7C /* LevelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOne.swift; sourceTree = "<group>"; };
 		E1523E8F21A8C77F00F1AE7C /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 		E1523E9121A8D09A00F1AE7C /* CorrectLvl1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectLvl1.swift; sourceTree = "<group>"; };
+		E16DF15121A9FD28002BA188 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		E1EEE08E21A906C400970181 /* LevelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwo.swift; sourceTree = "<group>"; };
 		E1EEE09021A91B5D00970181 /* CorrectLvl2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectLvl2.swift; sourceTree = "<group>"; };
 		E1EEE09221A92ABC00970181 /* LevelThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelThree.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				E1523E7921A8873600F1AE7C /* AppDelegate.swift */,
 				E1523E7B21A8873600F1AE7C /* ViewController.swift */,
 				E1523E7D21A8873600F1AE7C /* Main.storyboard */,
+				E16DF15121A9FD28002BA188 /* SplashScreen.swift */,
 				E1EEE09621A9405900970181 /* Congratulations.swift */,
 				E1EEE09421A9370000970181 /* CorrectLvl3.swift */,
 				E1EEE09021A91B5D00970181 /* CorrectLvl2.swift */,
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16DF15221A9FD28002BA188 /* SplashScreen.swift in Sources */,
 				E1EEE09321A92ABC00970181 /* LevelThree.swift in Sources */,
 				E1523E7C21A8873600F1AE7C /* ViewController.swift in Sources */,
 				E1523E8C21A89A0C00F1AE7C /* HowToPlay.swift in Sources */,
