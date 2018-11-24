@@ -559,6 +559,9 @@
                                 <rect key="frame" x="117" y="608" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Cycle"/>
+                                <connections>
+                                    <action selector="replayPressed:" destination="Uft-Re-T98" eventType="touchUpInside" id="yAT-GS-A8Q"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSO-Jv-ssA">
                                 <rect key="frame" x="49" y="547" width="276" height="36"/>
@@ -573,7 +576,7 @@
                     </view>
                     <connections>
                         <outlet property="scoreLabel" destination="DSO-Jv-ssA" id="INh-SP-WFW"/>
-                        <segue destination="BYZ-38-t0r" kind="show" id="YDH-Ih-KeR"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="replaySegue" id="YDH-Ih-KeR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nrK-cb-gIi" userLabel="First Responder" sceneMemberID="firstResponder"/>

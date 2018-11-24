@@ -14,6 +14,10 @@ class Congratulations: UIViewController {
     
     @IBOutlet weak var scoreLabel: UILabel!
     
+    @IBAction func replayPressed(_ sender: Any) {
+        performSegue(withIdentifier: "replaySegue", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
