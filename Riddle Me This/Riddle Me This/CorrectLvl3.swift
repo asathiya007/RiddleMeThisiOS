@@ -25,5 +25,10 @@ class CorrectLvl3: UIViewController {
         scoreLabel.text = "Score: \(playerScore)"
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var congratulations = segue.destination as! Congratulations
+        congratulations.playerScore = playerScore 
+    }
 
 }
