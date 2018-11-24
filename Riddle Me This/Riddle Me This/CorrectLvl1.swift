@@ -14,15 +14,15 @@ class CorrectLvl1: UIViewController {
 
     @IBOutlet weak var scoreTextField: UILabel!
     
+    
+    @IBAction func toLvl2Pressed(_ sender: Any) {
+        performSegue(withIdentifier: "toLvl2Segue", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         scoreTextField.text = "Score: \(playerScore)"
         
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var nextLevel = segue.destination as! LevelTwo
-        nextLevel.playerScore = playerScore
     }
 
 }

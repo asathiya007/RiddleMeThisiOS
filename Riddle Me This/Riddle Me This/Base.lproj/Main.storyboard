@@ -234,43 +234,11 @@
                     </view>
                     <connections>
                         <outlet property="scoreTextField" destination="786-1P-C3w" id="bDm-01-ja2"/>
-                        <segue destination="Sft-LH-0x5" kind="show" identifier="toLvl2Segue" id="pDV-QQ-n2h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTR-9m-Ipo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2312.8000000000002" y="22.906403940886701"/>
-        </scene>
-        <!--Level Two-->
-        <scene sceneID="vN1-S6-MAJ">
-            <objects>
-                <viewController id="Sft-LH-0x5" customClass="LevelTwo" customModule="Riddle_Me_This" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="jOE-Io-O9F">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OrangePinkGradient" translatesAutoresizingMaskIntoConstraints="NO" id="9lW-pj-Zmv">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jI-CQ-3sQ">
-                                <rect key="frame" x="48" y="678" width="279" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Syu-3A-7b3"/>
-                    </view>
-                    <connections>
-                        <outlet property="scoreLabel" destination="3jI-CQ-3sQ" id="uaX-Yf-IqZ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yfv-oS-sNq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3098.4000000000001" y="24.384236453201972"/>
+            <point key="canvasLocation" x="2309.5999999999999" y="22.906403940886701"/>
         </scene>
         <!--Game Over-->
         <scene sceneID="EBA-Py-Ecp">
