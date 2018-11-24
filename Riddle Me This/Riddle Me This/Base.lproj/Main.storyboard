@@ -425,6 +425,9 @@
                                 <rect key="frame" x="66" y="370" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Case"/>
+                                <connections>
+                                    <action selector="casePressed:" destination="h4G-ax-eqI" eventType="touchUpInside" id="P2z-HM-j2t"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dI-ym-qBP" userLabel="Gift">
                                 <rect key="frame" x="212" y="370" width="100" height="100"/>
@@ -435,11 +438,17 @@
                                 <rect key="frame" x="68" y="503" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Mail"/>
+                                <connections>
+                                    <action selector="mailPressed:" destination="h4G-ax-eqI" eventType="touchUpInside" id="zWn-m6-sPB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMe-od-v0Y">
                                 <rect key="frame" x="212" y="503" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Coffee"/>
+                                <connections>
+                                    <action selector="coffeePressed:" destination="h4G-ax-eqI" eventType="touchUpInside" id="UML-z6-7uH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -447,6 +456,7 @@
                     </view>
                     <connections>
                         <outlet property="scoreLabel" destination="ybM-JG-GCe" id="OYT-ON-Cul"/>
+                        <segue destination="hAD-3c-q6V" kind="show" identifier="wrongAnswerLvl3Segue" id="G8V-hT-lcE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uND-Dr-caf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -541,6 +551,6 @@
         <image name="USBDrive" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="zAW-6i-d06"/>
+        <segue reference="G8V-hT-lcE"/>
     </inferredMetricsTieBreakers>
 </document>
