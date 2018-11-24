@@ -329,10 +329,10 @@
             </objects>
             <point key="canvasLocation" x="3037.5999999999999" y="22.906403940886701"/>
         </scene>
-        <!--View Controller-->
+        <!--Correct Lvl2-->
         <scene sceneID="fck-dE-4dI">
             <objects>
-                <viewController id="0Fx-bU-YYI" sceneMemberID="viewController">
+                <viewController id="0Fx-bU-YYI" customClass="CorrectLvl2" customModule="Riddle_Me_This" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Odl-lN-PIl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -370,6 +370,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Bff-P5-PBK"/>
                     </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="jOj-9g-hbs" id="Dmx-Na-zwd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jgt-qa-qAi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -383,7 +386,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DarkPurpleGradient" translatesAutoresizingMaskIntoConstraints="NO" id="ILz-Lb-YqK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BluePinkGradient" translatesAutoresizingMaskIntoConstraints="NO" id="ILz-Lb-YqK">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="826"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -448,7 +451,6 @@
         <image name="Cloud" width="1024" height="1024"/>
         <image name="Compass" width="1024" height="1024"/>
         <image name="Cycle" width="1024" height="1024"/>
-        <image name="DarkPurpleGradient" width="1000" height="1000"/>
         <image name="Heart" width="1024" height="1024"/>
         <image name="LemonLimeGradient" width="1000" height="1000"/>
         <image name="OrangePinkGradient" width="1000" height="1000"/>

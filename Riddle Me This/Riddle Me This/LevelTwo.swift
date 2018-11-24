@@ -33,6 +33,7 @@ class LevelTwo: UIViewController {
     
     @IBAction func heartPressed(_ sender: Any) {
         correctButton = true
+       playerScore += 1
         performSegue(withIdentifier: "correctLvl2Segue", sender: self)
     }
     
@@ -45,6 +46,8 @@ class LevelTwo: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (correctButton) {
+            var correctLvl2 = segue.destination as! CorrectLvl2
+            correctLvl2.playerScore = playerScore
             
         } else {
             var gameOver = segue.destination as! GameOver
