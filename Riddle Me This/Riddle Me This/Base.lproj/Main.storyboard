@@ -366,17 +366,48 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5d-rC-7c4" userLabel="GotItButton">
+                                <rect key="frame" x="117" y="608" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" backgroundImage="Check"/>
+                                <connections>
+                                    <action selector="gotItPressed:" destination="0Fx-bU-YYI" eventType="touchUpInside" id="Ndj-i8-cqj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Bff-P5-PBK"/>
                     </view>
                     <connections>
                         <outlet property="scoreLabel" destination="jOj-9g-hbs" id="Dmx-Na-zwd"/>
+                        <segue destination="h4G-ax-eqI" kind="show" identifier="toLvl3Segue" id="pcB-8V-pz3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jgt-qa-qAi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3798" y="23"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aD4-Cg-TRg">
+            <objects>
+                <viewController id="h4G-ax-eqI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Wk-0l-Mjj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OrangePinkGradient" translatesAutoresizingMaskIntoConstraints="NO" id="3vv-Hc-faA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="5fa-bc-Y9v"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uND-Dr-caf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4549.6000000000004" y="22.906403940886701"/>
         </scene>
         <!--Game Over-->
         <scene sceneID="EBA-Py-Ecp">
