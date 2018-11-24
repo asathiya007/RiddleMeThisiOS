@@ -31,6 +31,12 @@ class LevelThree: UIViewController {
         performSegue(withIdentifier: "wrongAnswerLvl3Segue", sender: self)
     }
     
+    
+    @IBAction func giftPressed(_ sender: Any) {
+        correctButton = true
+        performSegue(withIdentifier: "correctLvl3Segue", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
